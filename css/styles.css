@@ -1,0 +1,219 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --accent-text-color: #fff;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+  --logo-studio-color: #000000;
+  --primary-color-article: #212121;
+  --primary-color-text: #757575;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--primary-font);
+  color: #212121;
+  background-color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/*================COMPONENT================ */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.web {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.studio {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.studio-footer {
+  color: var(--accent-text-color);
+}
+.btn {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background-color: var(--accent-color);
+
+  /* color: #ffffff; */
+}
+.btn:hover,
+.btn:focus {
+  color: var(--accent-text-color);
+  background-color: #188ce8;
+}
+.call {
+  font-style: normal;
+  color: var(--contacts-color);
+}
+.address {
+  background-color: var(--secondary-bg-color);
+}
+.footer-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.location {
+  color: var(--accent-text-color);
+}
+/* ================/COMPONENT================ */
+
+/* ================ШАПКА СТРАНИЦЫ================ */
+.navigation-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-article);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  color: var(--primary-color-text);
+}
+.current {
+  color: var(--accent-color);
+}
+/* ================/ШАПКА СТРАНИЦЫ================ */
+
+/* ======================================СТУДИЯ====================================== */
+
+/*==========HERO==========  */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+}
+.hero-btn {
+  color: var(--accent-text-color);
+}
+
+/*==========/HERO==========  */
+
+/*==========FEATURES==========  */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-color-article);
+}
+.features-text {
+  line-height: 1.71;
+
+  color: var(--primary-color-text);
+}
+/*==========/FEATURES==========  */
+
+/*==========BUSINESS==========  */
+.business-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--primary-color-article);
+}
+/*==========/BUSINESS==========  */
+
+/*==========TEAM==========  */
+.team {
+  background-color: var(--third-bg-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--primary-color-article);
+}
+.team-employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--primary-color-article);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--primary-color-text);
+}
+/*==========/TEAM==========  */
+
+/* ======================================/СТУДИЯ====================================== */
+
+/* ======================================ПОРТФОЛИО====================================== */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-color-article);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--primary-color-text);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+
+  background-color: var(--third-bg-color);
+}
+/* ======================================/ПОРТФОЛИО====================================== */
