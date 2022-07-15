@@ -18,7 +18,35 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
 /*================COMPONENT================ */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
+}
 .list {
   list-style: none;
 }
@@ -51,7 +79,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
   background-color: var(--accent-color);
 
   /* color: #ffffff; */
@@ -83,6 +110,28 @@ body {
 /* ================/COMPONENT================ */
 
 /* ================ШАПКА СТРАНИЦЫ================ */
+.page-header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .navigation-link {
   font-weight: 500;
   line-height: 1.14;
@@ -93,7 +142,15 @@ body {
 .navigation-link:focus {
   color: var(--accent-color);
 }
-.contacts {
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contact-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact {
   color: var(--primary-color-text);
 }
 .current {
