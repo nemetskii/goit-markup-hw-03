@@ -52,36 +52,36 @@
     </header>
     <!--Основной материал-->
     <main>
-      <section class="hero">
+      <section class="section hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="btn hero-btn" type="button">Заказать услугу</button>
         </div>
       </section>
 
-      <section class="features">
-        <div class="container">
+      <section class="section features">
+        <div class="container features-container">
           <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="list">
-            <li>
+          <ul class="features-list list">
+            <li class="features-list-item">
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="features-list-item">
               <h3 class="features-title">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="features-list-item">
               <h3 class="features-title">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="features-list-item">
               <h3 class="features-title">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -91,25 +91,25 @@
         </div>
       </section>
 
-      <section class="business">
+      <section class="section business">
         <div class="container">
           <h2 class="business-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="business-list list">
+            <li class="business-list-item">
               <img
                 width="370"
                 src="images/box_1.jpg"
                 alt="Рабочий стол, печатающий на клавиатуре человек"
               />
             </li>
-            <li>
+            <li class="business-list-item">
               <img
                 width="370"
                 src="images/box_2.jpg"
                 alt="Ноутбук и человек с смартфоном в руках"
               />
             </li>
-            <li>
+            <li class="business-list-item">
               <img
                 width="370"
                 src="images/box_3.jpg"
@@ -120,29 +120,37 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="team-list list">
+            <li class="team-list-item">
               <img width="270" src="images/emploees/img_1.jpg" alt="Игорь Демьяненко" />
-              <h3 class="team-employee">Игорь Демьяненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-employee">Игорь Демьяненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-list-item">
               <img width="270" src="images/emploees/img_2.jpg" alt="Ольга Репина" />
-              <h3 class="team-employee">Ольга Репина</h3>
-              <p class="team-text" lang="en">Frontend Develover</p>
+              <div class="team-container">
+                <h3 class="team-employee">Ольга Репина</h3>
+                <p class="team-text" lang="en">Frontend Develover</p>
+              </div>
             </li>
-            <li>
+            <li class="team-list-item">
               <img width="270" src="images/emploees/img_3.jpg" alt="Николай Тарасов" />
-              <h3 class="team-employee">Николай Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-employee">Николай Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="team-list-item">
               <img width="270" src="images/emploees/img_4.jpg" alt="Михаил Ермаков" />
-              <h3 class="team-employee">Михаил Ермаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-employee">Михаил Ермаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -151,12 +159,14 @@
     <!--Контактная информация-->
     <footer class="address">
       <div class="container">
-        <a class="link" lang="en" href="./index.html"
-          ><span class="web">Web</span><span class="studio studio-footer">Studio</span></a
-        >
-        <address>
+        <div class="footer-logo">
+          <a class="link" lang="en" href="./index.html"
+            ><span class="web">Web</span><span class="studio studio-footer">Studio</span></a
+          >
+        </div>
+        <address class="address-list">
           <ul class="list">
-            <li>
+            <li class="address-item">
               <a
                 class="footer-link link call location"
                 href="https://goo.gl/maps/ZJLE7oXqnEzqe7Bk7"
@@ -165,10 +175,10 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="address-item">
               <a class="footer-link link call" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
+            <li class="address-item">
               <a class="footer-link link call" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
